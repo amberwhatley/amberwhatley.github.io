@@ -1,0 +1,74 @@
+#spgc{
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#spgc-1{
+    background-color:#c4fcef;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#spgc-2{
+    background-color:#ffe8ff;
+    font-family: cursive;
+    text-align:center;
+    padding: 24px;
+}
+#spgc-3{
+    background-color: #def3e6;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#sum{
+    font-family:arial;
+    text-align: center;
+    padding: 24px;
+}
+#sum-1{
+    background-color:#BBB2E9;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#sum-2{
+    background-color: #FFBBA0;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#sum-3{
+    background-color:#F9F871 ;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#fall{
+    font-family:serif;
+    text-align: center;
+    padding: 24px;
+}
+#fall-1{
+    background-color: #013521;
+    font-family:serif;
+    color:white;
+    text-align: center;
+    padding: 24px;
+}
+#fall-2{
+    background-color:#5F1A0B ;
+    font-family:serif;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+#fall-3{
+    background-color:#BB591A ;
+    font-family:serif;
+    color:white;
+    text-align: center;
+    padding: 24px;
+}
+
