@@ -1,0 +1,43 @@
+div{
+    border: 10px ridge pink;
+    /*
+        Below is shorthand margin using 1 value.
+        1values of margin is applied to all 4 sides.
+    */
+    margin: 24px;
+    padding: 24px 50px;
+    background-color:lightblue;
+    }
+    p{
+        border: 20px dashed blue;
+        margin: 60px;
+        padding: 48px 60px;
+        background-color: cornflowerblue;
+        border-radius: 20px;
+    }
+    a{
+        background-color: blanchedalmond;
+        padding:15px;
+        display:inline-block;
+    }
+    /*
+        2 values splits it across vertical and horizontal axis.
+        The first value is applied to the top and bottom.
+        The second value is applied to the left and right.
+    */
+    margin: 50px 150px
+    /*
+        3 values splits it across top,left/right, and bottom
+        The first vaule is applied to the top
+        The second value is applied to the left and right.
+        The third value is applied the the bottom
+    */
+    margin: 25px 200px 50px
+    /*
+        4 values splits them across all four sides
+        the first is the top
+        the second is the right
+        the third is the bottom
+        the forth is the left
+    */
+    margin: 10px 50px 30 px 5px
