@@ -8,3 +8,27 @@
 h3{
     font-size: small;
 }
+#ring1{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    color: rgb(103, 46, 184);
+}
+#ringphoto7{
+    margin-left: 130px;
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+#rp7{
+    text-align: center;
+    color: rosybrown;
+}
+#ring2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(242, 180, 207);
+}
+#ringphoto4{
+    margin-left: 130px;
+}
