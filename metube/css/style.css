@@ -28,7 +28,7 @@ body{
 }
 #header #tube{
     color: white;
-    background-color: coral;
+    background-color: rgb(84, 185, 133);
     padding: 4px;
     border-radius: 12px;
 }
@@ -51,7 +51,7 @@ body{
 
 }
 #sidebar ul a:hover{
-    background-color: coral;
+    background-color: rgb(215, 184, 237);
     border-radius: 12px;
     opacity: 1;
     
@@ -70,8 +70,33 @@ body{
 }
 .metube-item .thumbnail{
     border-radius: 8px;
-    background: radial-gradient( at top left, pink, coral);
+    background: radial-gradient( at top left, rgb(180, 232, 207), 
+    rgb(215, 191, 231));
     aspect-ratio: 16/9;
+}
+#vid1 .thumbnail{
+    background-image: url(../images/cs.png);
+    background-size: cover;
+}
+#vid2 .thumbnail{
+    background-image: url(../images/lilym.png);
+    background-size: cover;
+}
+#vid3 .thumbnail{
+    background-image: url(../images/AL.png);
+    background-size: cover;
+}
+#vid4 .thumbnail{
+    background-image: url(../images/atla.png);
+    background-size: cover;
+}
+#vid5 .thumbnail{
+    background-image: url(../images/howitsmade.png);
+    background-size: cover;
+}
+#vid6 .thumbnail{
+    background-image: url(../images/adobedraw.png);
+    background-size: cover;
 }
 .metube-item h4 {
     text-decoration: none;
@@ -88,4 +113,3 @@ body{
 .metube-item .channel{
     margin-bottom: 4px;
 }
-
