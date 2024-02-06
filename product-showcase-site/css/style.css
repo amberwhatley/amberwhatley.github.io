@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
 #heading{
     font-family: cursive;
     text-align: center;
@@ -13,22 +19,33 @@ h3{
     font-family: cursive;
     font-size: large;
     color: rgb(103, 46, 184);
+    background-color: blanchedalmond;
+    padding: 24px;
 }
 #ringphoto7{
-    margin-left: 130px;
+    margin-right: 200px ;
+    align-content: center;
     background-color: blanchedalmond;
-    padding: 30px;
 }
 #rp7{
     text-align: center;
     color: rosybrown;
+    background-color: blanchedalmond;
+    padding: 20px;
 }
 #ring2{
     text-align: center;
     font-family: cursive;
     color: white;
     background-color: rgb(242, 180, 207);
+    padding: 24px;
 }
 #ringphoto4{
-    margin-left: 130px;
+    margin-left: 13px;
+}
+#rp4{
+    text-align: center;
+    background-color: rgba(145, 196, 169, 0.881);
+    color: white;
+    padding: 20px;
 }
