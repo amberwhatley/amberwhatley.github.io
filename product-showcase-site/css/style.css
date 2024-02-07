@@ -3,49 +3,73 @@
 }
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
-#heading{
-    font-family: cursive;
-    text-align: center;
-    padding: 30px;
+.center-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
     background-color: blanchedalmond;
-    border: 2px solid black;
 }
-h3{
-    font-size: small;
-}
-#ring1{
+
+#heading {
     text-align: center;
-    font-family: cursive;
+}
+#slogan {
+    text-align: center;
     font-size: large;
-    color: rgb(103, 46, 184);
-    background-color: blanchedalmond;
-    padding: 24px;
 }
-#ringphoto7{
-    margin-right: 200px ;
-    align-content: center;
-    background-color: blanchedalmond;
+#photo1 {
+    width: 100%;
 }
-#rp7{
+#ring1 {
     text-align: center;
-    color: rosybrown;
-    background-color: blanchedalmond;
-    padding: 20px;
+    color: rgb(132, 78, 182);
 }
-#ring2{
+#ringphoto7 {
+    width: 100%;
+    background-color:rgb(206, 169, 241) ;
+}
+#rp7 {
     text-align: center;
-    font-family: cursive;
+}
+#ring2 {
+    text-align: center;
+    color: rgb(6, 77, 48);
+}
+#ringphoto4 {
+    width: 100%;
+    background-color:rgb(206, 169, 241) ;
+}
+#rp4 {
+    text-align: center;
+}
+#ring3 {
+    text-align: center;
+    color: rgb(26, 31, 119);
+}
+#ringphoto5 {
+    width: 100%;
+    background-color:rgb(206, 169, 241) ;
+}
+#rp5 {
+    text-align: center;
+}
+#ring4 {
+    text-align: center;
+    color: rgb(77, 41, 144);
+}
+#ringphoto6 {
+    width: 100%;
+    background-color:rgb(149, 118, 178) ;
+}
+#rp6 {
+    text-align: center;
+}
+#rp7-1,#rp4-1,#rp5-1,#rp6-1 {
+    text-align: center;
     color: white;
-    background-color: rgb(242, 180, 207);
-    padding: 24px;
-}
-#ringphoto4{
-    margin-left: 13px;
-}
-#rp4{
-    text-align: center;
-    background-color: rgba(145, 196, 169, 0.881);
-    color: white;
-    padding: 20px;
+    background-color: rgb(82, 127, 80);
+    padding: 4px;
+    border-radius: 12px;
 }
