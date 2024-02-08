@@ -12,6 +12,11 @@ body {
 #two-columns {
     display: flex;
 }
+#main-content, #second-content {
+    width: 20%;
+    min-width: 500px;
+}
+
 #sidebar-content {
     background-color: rgb(141, 169, 218);
     width: 250px;
@@ -19,14 +24,19 @@ body {
     border-right: 2px solid rgb(26, 0, 128);
 }
 
-#head-content {
-    flex: 1;
-    padding: 48px;
+#photo1{
+    background-color: white;
+    padding: 0px 12px;
+    flex: 2;
+    margin-left: 60%;
 }
-#title3 { 
-    font-size: small;
-    margin-left: 1000px;
+#wiki {
+    margin-left: 50%;
+    font-size: smaller;
 }
-#plot1 {
-    text-decoration: underline;
+#side-content {
+    margin-left: 10%;
+}
+#second-content {
+    
 }
