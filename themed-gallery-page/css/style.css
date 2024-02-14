@@ -14,9 +14,7 @@ body {
     background-position: center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 
 #hero-1 h1 {
