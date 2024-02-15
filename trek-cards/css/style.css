@@ -28,9 +28,9 @@ body {
     width: 350px;
     border: 2px solid black;
     border-radius: 5px;
-    padding: px;
+    padding: 10px;
     box-shadow: 4px 4px 12px #000000;
-    background-color: aliceblue;
+    background-color: rgb(230, 253, 242);
 }
 
 .card-style-1 img {
@@ -54,12 +54,11 @@ body {
     background-color: rgb(1, 161, 1) ;
     display: inline-block;
     width: 100%;
-    padding: 10px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
     border: 3px solid rgb(1, 161, 1);
-   transition: 
-   background-color 0.5s
-   color 0.5s;
+    transition: background-color 0.5s;
+    color:white 0.5s;
 }
 
 .card-style-1 a:hover {
