@@ -23,15 +23,14 @@ body {
     color: white;
     background-color: rgba(84, 160, 102, 0.632);
 }
-#hero-1 a{
+#button a {
     font-size:1.5vw;
     display:inline-block;
     background-color:#333333;
     color:white;
     text-decoration:none;
-    padding:24px;
-    margin:5vh 5vw 10vh 0px;
-    align-items: center;
+    padding:35px;
+
 }
     
 

@@ -55,8 +55,17 @@ body {
 }
 
 .animagram-footer {
-    margin-top: 10%;
+    margin-top: 14%;
     text-align: center;
     font-size: 24px ;
 }
 
+.fa-comment {
+    margin-right: 2px;
+}
+.fa-image {
+    margin-left: 25px; 
+}
+.fa-regular {
+    margin-left: 40px;
+}
