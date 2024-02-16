@@ -16,34 +16,40 @@ body {
     font-family: sans-serif;
 }
 
-#trek-card-1 {
-    width: 90vw;
-    max-width: 350px;
+.trek-card-1 {
+    width: 100vw;
+    max-width: 800px;
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
+    gap:36px;
+    justify-content: center center;
+
 }
 
 .card-style-1 {
     width: 350px;
     border: 2px solid black;
     border-radius: 5px;
-    padding: 10px;
-    box-shadow: 4px 4px 12px #000000;
+    box-shadow: 4px 4px 12px #646464da;
     background-color: rgb(230, 253, 242);
+    
 }
 
 .card-style-1 img {
     width: 100%;
+    margin-top: 10px;
 }
 
 .card-style-1 h2 {
-    font-size: 36px;
-    margin-top: 12px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 35px;
 }
 
 .card-style-1 p {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 15px;
 }
 
 .card-style-1 a {

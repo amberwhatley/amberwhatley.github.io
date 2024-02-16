@@ -18,15 +18,15 @@ body {
 
 #card-container {
     width: 90vw;
-    max-width: 350px;
-    margin: 48px auto;
+    max-width: 450px;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 
 .card-style-3 {
-    width: 350px;
+    width: 375px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 48px;
@@ -40,6 +40,10 @@ body {
     border: 5px solid rgb(232, 195, 26);
 }
 
-.health {
-    
+.pokemon-card-1{
+    background-color:linear-gradient(rgb(99, 183, 99),green);
+}
+
+.pokemon-header {
+    font-size: 20px;
 }
