@@ -146,13 +146,15 @@ body {
     padding:12px 36px;
 }
 #navbar3-1 {
-    background:linear-gradient(to bottom,yellowgreen,olive);
+    background:linear-gradient(to bottom,rgb(0, 0, 0),rgb(250, 138, 41));
     display:flex;
     justify-content:space-between;
+    
 }
 #navbar3-1 a {
     font-size: 20px;
     color: white;
     text-decoration:none;
     padding:12px 36px;
+    margin-left: 585px;
 }
