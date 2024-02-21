@@ -169,9 +169,7 @@ a {
 /****************************************************************************
   Card styles
 ****************************************************************************/
-.three-cards {
-    display: contents;
-}
+.three-cards, 
 .two-cards {
     display:flex;
 }
@@ -222,13 +220,14 @@ a {
     gap:50px;
 }
 @media screen and (max-width:768px) {
-    #three-cards{
+    .three-cards{
     gap:25px;
     align-items:center;}
     #content-container{
     gap:10px;}
 }
-    #hero h1 {
-        font-size: 95px;
-    }
+#hero h1 {
+    font-size:10px ;
+}
+
 
