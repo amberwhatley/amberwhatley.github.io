@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 36px;
+}
+
+#card1:hover {
+    background-color: blue;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+
+#card1 {
+    background-image:url(../images/sunsethair.jpeg);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#card1 a {
+    background-color: rgb(199, 199, 249);
+}
+
+#card2 {
+    background-image: url(../images/sunsethair2.jpeg);
+    background-size: cover;
+    color: rgb(248, 223, 98);
+}
+#card2 a {
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover a {
+    color: white;
+    background-color: rgb(249, 53, 99);
+    box-shadow: 4px 4px 4px #000;
+    transform: translateY(-4px);
+}
+
+#card3 {
+    background-image: url(../images/fireice.jpeg);
+    background-size:cover;
+}
+#card3 h2{
+    color: rgba(121, 176, 253, 0.999);
+}
+#card3 .card-content{
+    transition: 
+        opacity 0.5s,
+        visibilty 0.5s;
+}
+#card3:hover .card-content {
+    background-color: rgba(254, 170, 68, 0.828);
+    opacity:0;
+}
+#card3 a {
+    background-color: rgba(244, 166, 88, 0.77);
+    color: peachpuff;
+}
+#card4 {
+    background-image: url(../images/sunflowerhair.jpeg);
+    background-size: cover;
+}
+#card4 h2{
+    color: rgba(249, 206, 154, 0.964);
+}
+  
+#card4 .card-content{
+    color: white;
+    background-color: rgba(247, 164, 39, 0.777);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+        transform: 0.5s;
+}
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card4 a {
+    color: white;
+}
+  
+#card6 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card6 h2{
+    color: rgb(249, 79, 108);
+} 
+
+#card6 a {
+    background-color: rgb(215, 98, 118);
+    color: white;
+}
+
+#card6 .card6-front,#card6 .card6-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card6 .card6-back {
+    background-color: peachpuff;
+    transform:scaleX(0);
+}
+    
+#card6 .card6-front {
+    background-image:url("../images/peachykeen.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card6 .card6-front {
+    transition:transform 0.25s;
+}
+    
+#card6 .card6-back {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card6:hover .card6-front {
+    transform:scaleX(0);
+}
+    
+#card6:hover .card6-back {
+    transform:scaleX(1);
+}
+    
+    
