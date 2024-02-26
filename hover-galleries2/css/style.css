@@ -10,7 +10,8 @@ body {
 #cards-container {
     display:flex;
     flex-wrap:wrap;
-    align-items:flex-start;}
+    align-items:flex-start;
+}
     
 .card {
     flex:300px;
@@ -34,6 +35,7 @@ body {
     background-color: rgb(152, 219, 197);
     font-size: 40px;
     font-family:sans-serif ;
+    padding: 24px;
 }
 
 #card1 {
@@ -434,3 +436,273 @@ body {
     background-color: white;
     color: rgb(44, 98, 71);
 }
+   
+.card-set-3 {
+    flex:300px;
+    border:3px solid black;
+    margin:24px;
+    padding:24px;
+    border-radius:12px;
+    text-align:center;
+}
+  
+#card-set-3 h2{
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(184, 184, 225);
+    padding: 24px;
+}
+.card a {
+    text-decoration:none;
+    color:black;
+    display:block;
+    border:3px solid black;
+    padding:12px;
+    margin-top:36px;
+}
+#card11 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card11 .card11-front,
+#card11 .card11-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card11 .card11-back {
+    transform:scaleX(0);
+}
+    
+#card11 .card11-front {
+    background-image:url("../images/sneaks1.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card11 .card11-front {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card11 .card11-back {
+    background-color: rgb(248, 57, 57);
+    transition:transform 0.25s;
+}
+    
+#card11:hover .card11-front {
+    transform:rotate(360deg);
+    transition:transform 1.25s;
+}
+    
+#card11:hover .card11-back {
+    transform:scaleX(1);
+    transition:transform 0.25s 0.25s;
+}
+#card11 a {
+    background-color: azure;
+    color: rgb(0, 0, 0);
+} 
+
+#card12 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card12 .card11-front,
+#card12 .card11-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card12 .card11-back {
+    transform:scaleX(0);
+}
+    
+#card12 .card11-front {
+    background-image:url("../images/sneaks2.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card12 .card11-front {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card12 .card11-back {
+    background-color: rgb(228, 208, 241);
+    transition:transform 0.25s;
+}
+    
+#card12:hover .card11-front {
+    transform:rotate(360deg);
+    transition:transform 1.25s;
+}
+    
+#card12:hover .card11-back {
+    transform:scaleX(1);
+    transition:transform 0.25s 0.25s;
+}
+#card12 a {
+    background-color: azure;
+    color: rgb(228, 199, 8);
+} 
+#card13 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card13 .card11-front,
+#card13 .card11-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card13 .card11-back {
+    transform:scaleX(0);
+}
+    
+#card13 .card11-front {
+    background-image:url("../images/sneaks3.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card13 .card11-front {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card13 .card11-back {
+    background-color: rgb(37, 98, 62);
+    transition:transform 0.25s;
+}
+    
+#card13:hover .card11-front {
+    transform:rotate(360deg);
+    transition:transform 1.25s;
+}
+    
+#card13:hover .card11-back {
+    transform:scaleX(1);
+    transition:transform 0.25s 0.25s;
+}
+#card13 a {
+    background-color: azure;
+    color: rgb(202, 105, 44);
+} 
+#card14 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card14 .card11-front,
+#card14 .card11-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card14 .card11-back {
+    transform:scaleX(0);
+}
+    
+#card14 .card11-front {
+    background-image:url("../images/sneaks4.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card14 .card11-front {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card14 .card11-back {
+    background-color: rgb(236, 244, 165);
+    transition:transform 0.25s;
+}
+    
+#card14:hover .card11-front {
+    transform:rotate(360deg);
+    transition:transform 1.25s;
+}
+    
+#card14:hover .card11-back {
+    transform:scaleX(1);
+    transition:transform 0.25s 0.25s;
+}
+#card14 a {
+    background-color: azure;
+    color: rgb(213, 166, 231);
+} 
+#card15 {
+    position:relative;
+    border:0px;
+    padding:0px;
+}
+    
+#card15 .card11-front,
+#card15 .card11-back {
+    border:3px solid black;
+    border-radius:12px;
+    padding:24px;
+}
+    
+#card15 .card11-back {
+    transform:scaleX(0);
+}
+    
+#card15 .card11-front {
+    background-image:url("../images/sneaks5.jpeg");
+    background-size:cover;
+    border-radius:12px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+    
+    
+#card15 .card11-front {
+    transition:transform 0.25s 0.25s;
+}
+    
+#card15 .card11-back {
+    background-color: rgb(106, 142, 117);
+    transition:transform 0.25s;
+}
+    
+#card15:hover .card11-front {
+    transform:rotate(360deg);
+    transition:transform 1.25s;
+}
+    
+#card15:hover .card11-back {
+    transform:scaleX(1);
+    transition:transform 0.25s 0.25s;
+}
+#card15 a {
+    background-color: azure;
+    color: rgb(254, 41, 41);
+} 
