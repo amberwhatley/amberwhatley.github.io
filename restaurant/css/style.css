@@ -76,7 +76,8 @@ body {
 .single-column {
     min-width: 600px;
     max-width: 1200px;
-    margin: 0px auto;    
+    margin: 0px auto;   
+    background-color: #527c2392;
 }
     
 #main-section {
