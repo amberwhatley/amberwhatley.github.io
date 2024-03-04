@@ -6,9 +6,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-    
+   
 #navbar {
-    background: linear-gradient(to bottom,#A58862, #537C23);
+    background: linear-gradient(to bottom, #A58862, #3e6d3e);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,17 +18,20 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: #2D260B;
-    padding: 24px;
-    font-size:25px;
+    border-radius: 24px;
+    color: white;
+    padding: 20px;
+    font-size:30px;
 }
 #navbar a:hover {
-    background-color: #A58862;
+    background-color:#A58862;
+    color: white;
     border-radius:20px;
 }
+
 #navbar img {
-    width: 200px;
-    border-radius: 22px;
+    width: 270px;
+    border-radius: 25px;
 }   
 #navbar #logo {
     margin-right: auto;
@@ -47,22 +50,29 @@ body {
 
 .dropdown-container {
     position: relative;
+    color: white;
 }
     
 .dropdown-menu {
+   
     position: absolute;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.25s,visibility 0.25s;
+    
+    
 }
 
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
+    
 }
     
-.dropdown-menu a {
-    background-color:#537C23 ;
+#navbar .dropdown-menu a {
+    color: white;
+    background-color:#0e360e ;
+    
     width: 100%;
     min-width: 200px;
 }
@@ -72,12 +82,15 @@ body {
     background: #A58862;
 }
     
-
+#background {
+    background-image: url(../images/leaf.jpg);
+}
 .single-column {
     min-width: 600px;
     max-width: 1200px;
     margin: 0px auto;   
-    background-color: #527c2392;
+    
+    background-color: rgba(255, 255, 255, 0.753);
 }
     
 #main-section {
@@ -93,6 +106,7 @@ body {
      
 .side-by-side .image-container {
     flex: 1;
+    
 }
     
 .side-by-side .text-container {
@@ -115,12 +129,20 @@ body {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #537C23;
-    color: #2D260B;
+    background-color:#0e360e;
+    color:white;
     padding: 24px 48px;
     border-radius: 48px;
 }
+
+.side-by-side .text-container a:hover {
+    background-color: #3a5718;
+}
 /*Menu page*/
+#hero {
+    background-image: url(../images/leaf.jpg);
+    padding: 24px;
+}
 h1 {
     font-size: 55px;
     text-align: center;
@@ -135,13 +157,16 @@ h1 {
         background-position: center center;
 }
 
-h2 {
-    padding: 24px;
-    background-color: #a58862d4;
-    text-align: center;
-    font-size: 35px;
-    color: #0e360e;
+#hero-1 h2 {
     font-family: fresh_tea;
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #0e360e;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 20px;
 }
 
 #cards-container {
@@ -155,7 +180,7 @@ h2 {
     
 .card {
     flex:300px;
-    border:3px solid black;
+    border:3px solid #2D260B;
     margin:24px;
     padding:24px;
     border-radius:12px;
@@ -171,19 +196,18 @@ h2 {
     margin-top:36px;
 }
 #card-set-1 {
-    background-image: url(../images/leaf.jpeg);
+    background-image: url(../images/leaf.jpg);
     padding: 24px;
 }
 #cards-container{
-    background-image: url(../images/leaf.jpeg);
+    background-image: url(../images/leaf.jpg);
     
 }
 
 #card-set-1 h1{
     text-align: center;
-    background-color: #a58862ca;
     color: #0e360e;
-    font-size: 40px;
+    font-size: 50px;
     font-family:fresh_tea;
     padding: 24px;
 }
@@ -196,7 +220,7 @@ h2 {
     
 #card1 .card-front,
 #card1 .card-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -240,6 +264,7 @@ h2 {
     color: white;
 }
 #card1 p{
+    font-size: 24px;
     color: white;
 }
 
@@ -251,7 +276,7 @@ h2 {
     
 #card2 .card2-front,
 #card2 .card2-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -292,6 +317,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card2 p{
+    font-size: 25px;
     color: white;
 }
 
@@ -303,7 +329,7 @@ h2 {
     
 #card3 .card3-front,
 #card3 .card3-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -344,6 +370,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card3 p{
+    font-size: 25px;
     color: white;
 }
 
@@ -356,7 +383,7 @@ h2 {
     
 #card4 .card4-front,
 #card4 .card4-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -397,6 +424,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card4 p{
+    font-size: 25px;
     color: white;
 }
 
@@ -408,7 +436,7 @@ h2 {
     
 #card5 .card5-front,
 #card5 .card5-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -449,6 +477,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card5 p{
+    font-size: 25px;
     color: white;
 }
 #card6 {
@@ -459,7 +488,7 @@ h2 {
     
 #card6 .card6-front,
 #card6 .card6-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -500,6 +529,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card6 p {
+    font-size: 25px;
     color:white;
 }
 #card7 {
@@ -510,7 +540,7 @@ h2 {
     
 #card7 .card7-front,
 #card7 .card7-back  {
-    border:3px solid black;
+    border:3px solid #0e360e;
     border-radius:12px;
     padding:24px;
 }
@@ -551,6 +581,7 @@ h2 {
     transition:transform 0.25s 0.25s;
 }
 #card7 p{
+    font-size: 25px;
     color: white;
 }
 #card8 {
@@ -558,7 +589,7 @@ h2 {
     
 #card8 .card8-front,
 #card8 .card8-back {
-    border: 3px solid black;
+    border: 3px solid #0e360e;
     border-radius: 12px;
     padding: 24px;
 }
@@ -601,6 +632,7 @@ h2 {
 }
 
 #card8 p{
+    font-size: 25px;
     color: white;
 }
 #card9 {
@@ -612,7 +644,7 @@ h2 {
     
 #card9 .card9-front,
 #card9 .card9-back {
-    border: 3px solid black;
+    border: 3px solid #0e360e;
     border-radius: 12px;
     padding: 24px;
 }
@@ -653,8 +685,29 @@ h2 {
     color: white;
 }
 #card9 p{
+    font-size: 25px;
     color: white;
 }
+
+#footer {
+    background: linear-gradient(to bottom, #A58862, #3e6d3e);
+    color: white;
+    padding: 22px;
+}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
 
 @media screen and (max-width:480px){
     body{
