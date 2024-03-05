@@ -83,7 +83,7 @@ body {
 }
     
 #background {
-    background-image: url(../images/leaf.jpg);
+    background-image: url(../images/leaf2.jpg);
 }
 .single-column {
     min-width: 600px;
@@ -140,7 +140,7 @@ body {
 }
 /*Menu page*/
 #hero {
-    background-image: url(../images/leaf.jpg);
+    background-image: url(../images/leaf2.jpg);
     padding: 24px;
 }
 h1 {
@@ -196,11 +196,11 @@ h1 {
     margin-top:36px;
 }
 #card-set-1 {
-    background-image: url(../images/leaf.jpg);
+    background-image: url(../images/leaf2.jpg);
     padding: 24px;
 }
 #cards-container{
-    background-image: url(../images/leaf.jpg);
+    background-image: url(../images/leaf2.jpg);
     
 }
 
@@ -243,8 +243,8 @@ h1 {
 }
     
 #card1 .card-back {
-    background-color: #527c23ba;
-    color: #2D260B;
+    background-color: #527c23e1;
+    color:#2D260B;
     transition:transform 0.25s;
 }
 #card1 .card-back a {
@@ -299,8 +299,8 @@ h1 {
 }
     
 #card2 .card2-back {
-    background-color: #527c23ba;
-    color: #2D260B;
+    background-color: #527c23f0;
+    color:#2D260B;
     transition:transform 0.25s;
 }
 #card2 .card2-back a {
@@ -352,7 +352,7 @@ h1 {
 }
     
 #card3 .card3-back {
-    background-color: #527c23ba;
+    background-color: #527c23ed;
     color: #2D260B;
     transition:transform 0.25s;
 }
@@ -406,7 +406,7 @@ h1 {
 }
     
 #card4 .card4-back {
-    background-color: #527c23ba;
+    background-color: #527c23ee;
     color: #2D260B;
     transition:transform 0.25s;
 }
@@ -459,7 +459,7 @@ h1 {
 }
     
 #card5 .card5-back {
-    background-color: #527c23ba;
+    background-color: #527c23ea;
     color: #2D260B;
     transition:transform 0.25s;
 }
@@ -511,7 +511,7 @@ h1 {
 }
     
 #card6 .card6-back {
-    background-color: #527c23ba;
+    background-color: #527c23ea;
     color: #2D260B;
     transition:transform 0.25s;
 }
@@ -563,7 +563,7 @@ h1 {
 }
     
 #card7 .card7-back {
-    background-color: #527c23ba;
+    background-color: #527c23eb;
     color: #2D260B;
     transition:transform 0.25s;
 }
@@ -595,7 +595,7 @@ h1 {
 }
     
 #card8 .card8-back {
-    background-color: #527c23ba;
+    background-color: #527c23ed;
     color: #2D260B;
     transition:transform 0.25s;
     
@@ -667,7 +667,7 @@ h1 {
 }
     
 #card9 .card9-back {
-    background-color: #527c23ba;
+    background-color: #527c23eb;
     color: #2D260B;
     transition: transform 0.25s 0.25s;
 }
